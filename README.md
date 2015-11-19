@@ -1,6 +1,6 @@
 # hoplon-demo
 
-A [Hoplon][3] project designed to...well, that part is up to you.
+A [Hoplon][3] project that gets you [started][4].
 
 ## Dependencies
 
@@ -35,8 +35,9 @@ A [Hoplon][3] project designed to...well, that part is up to you.
 
 ## License
 
-Copyright © 2015, **Your Name Goes Here**
+Copyright © 2015, Melvin Zhang
 
 [1]: http://boot-clj.com
 [2]: http://localhost:8000
 [3]: http://hoplon.io
+[4]: https://github.com/hoplon/hoplon/wiki/Get-Started

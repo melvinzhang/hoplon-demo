@@ -1,0 +1,30 @@
+(page "done.html")
+
+(def clicks (cell 0))
+
+(def clicks-even? (cell= (even? clicks)))
+(def color (cell= (if clicks-even? "blue" "red")))
+
+(def history (cell []))
+(add-watch clicks :history #(swap! history conj %3))
+(cell= (print history))
+
+(html
+  (head
+    (link :href "css/bootstrap.css" :rel "stylesheet"))
+    (body
+      (h1 "Hello, Hoplon!")
+      (h2 :mouseover #(swap! clicks dec) clicks)
+      (button :click #(swap! clicks inc) "Click me")
+      (h2
+        :style (cell= (str "color:" color))
+        (text "clicks-even? = ~{clicks-even?}"))
+      (ol
+        (loop-tpl
+          :bindings [n history]
+          (li (cell= (str "n was " n)))))
+      (ol
+        (loop-tpl
+          :bindings [[bg n] (cell= (map vector (cycle ["#eee" "#fff"]) history))]
+          (li :css (cell= {:background-color bg})
+            (text "n was ~{n}"))))))
