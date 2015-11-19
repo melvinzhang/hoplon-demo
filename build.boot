@@ -20,7 +20,7 @@
   []
   (comp
     (watch)
-    (speak)
+    ;(speak)
     (hoplon)
     (reload)
     (cljs)
