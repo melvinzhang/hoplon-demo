@@ -2,6 +2,8 @@
 
 A demo of [Hoplon][3]'s [getting started][4] tutorial.
 
+Related talk: [Hoplon and Javelin, WebDev Alternate Reality - Micha Niskin][5] at ClojuTRE 2015
+
 ## Dependencies
 
 - java 1.7+
@@ -41,3 +43,4 @@ Copyright © 2015, Melvin Zhang
 [2]: http://localhost:8000
 [3]: http://hoplon.io
 [4]: https://github.com/hoplon/hoplon/wiki/Get-Started
+[5]: https://www.youtube.com/watch?v=UoZyyo2Bwr8
