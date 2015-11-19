@@ -1,6 +1,6 @@
 # hoplon-demo
 
-A [Hoplon][3] project that gets you [started][4].
+A demo of [Hoplon][3]'s [getting started][4] tutorial.
 
 ## Dependencies
 
