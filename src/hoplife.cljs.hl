@@ -31,7 +31,7 @@
    (link :href "hoplife.css" :rel "stylesheet" :type "text/css"))
   (body
    (button :click #(swap! running? not) :text (cell= (if running? "Stop" "Start")))
-   (button :click #(swap! alive into default) "Reset")
+   (button :click #(reset! alive default) "Reset")
    (table
     (for [x (range +size+)]
       (tr (for [y (range +size+)]
