@@ -1,4 +1,4 @@
-(page "done.html")
+(page "demo.html")
 
 (def clicks (cell 0))
 
